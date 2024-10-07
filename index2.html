@@ -64,7 +64,7 @@
 </head>
 
 <body>
-    <audio src="music.mp3" autoplay></audio>
+    <audio id="myaudio" src="music.mp3" autoplay></audio>
     <div class="image-center">
         <img src="https://media.tenor.com/j43eiYjTtzcAAAAM/sunghoon-enhypen-dancing.gif" alt="image" Id="image-alt" />
     </div>
@@ -88,6 +88,8 @@
             Gamau.style.left = Math.random() * 90 + "%";
             Gamau.style.top = Math.random() * 90 + "%";
         });
+        var audio = document.getElementById("myaudio")
+        audio.volume = 1;
     </script>
     </bodyl>
 
